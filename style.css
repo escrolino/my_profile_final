@@ -1,0 +1,136 @@
+/*colors and fonts*/
+
+
+
+h1 {
+  	
+	font-size: 32px;
+	
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h1, h2 {
+	font-family: 'Poppins', serif;
+	color: rgb(50,50,50);
+	text-align: center;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	color: #575F7D;	
+	font-size: 18px;	
+	background-color: #F7F9FC;
+}
+
+
+
+a {
+  color: #6B72E1 ;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+a:hover {
+	color: #0f0a3c;
+	font-weight: bold;
+}
+
+/*custom desing with class (99%)*/
+
+.jeremi-profile{
+	width: 183px;
+    height: 196px;
+    border-radius: 50%;
+    border-image: 
+
+}
+
+
+
+.maincontainer{
+	width: 1040px;
+	margin: 40px auto;
+}
+
+/*responsive design*/
+
+@media (max-width: 800px){
+	.maincontainer{
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px){
+	.maincontainer{
+		width: 400px;
+	}
+}
+
+.card-white{
+	background: white; 
+	padding: 60px; 
+	margin: 50px; 
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1); 
+	border-radius: 4px;
+}
+
+.container{
+	background: white; 
+	padding: 60px; 
+	margin: 50px; 
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1); 
+	border-radius: 4px;
+	text-align: center;
+}
+
+.btn-red {
+	background-color: red;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	transition: background 0.5s ease;
+}
+
+.btn-red:hover{
+	background-color: #F7F9FC;
+	color : red;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+	word-spacing: 31px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+	
+
+.list-inline i{
+	font-size: 50px;
+	
+}
+
+
+
+
+/*id is for specific adjusment (1%)*/
+
+#introduction p{
+	margin-bottom: 24px;
+}
+
+#lpv {
+	width: 90px;
+    height: 90px;
+}
+
+#align{
+	text-align: center;
+}
